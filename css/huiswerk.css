@@ -1,0 +1,145 @@
+body {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: #99ef8e;
+}
+
+/* opmaak afbeelding header*/
+.img {
+  width: 586px;
+  height: 82px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* opmaak nav menu */
+.menu {
+  width: 900px;
+  height: 30px;
+  background-color: #99ef8e;
+  font-size: 25px;
+}
+
+ul {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+  color: red;
+} /* einde nav menu! */
+
+/* opmaak inhoud */
+article {
+  min-height: 600px;
+  padding: 30px;
+  background-color: #ddffe8;
+}
+
+/* afbeelding homepage */
+.afbeelding {
+  display: block;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* algehele text paragraaf opmaken */
+p, h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+/* opmaak tabel mijncv */
+table {
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  text-align: center;
+  width: 50px;
+} /* einde tabel! */
+
+/* opmaak formulier contact */
+fieldset {
+  width: 410px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  display: block;
+  width: 400px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  box-shadow: inset 1px 1px 3px #99ef8e;
+}
+
+textarea {
+  width: 400px;
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 100px;
+  min-height: 100px;
+  border-radius: 2px;
+  margin: 5px;
+  box-sizing: border-box;
+  box-shadow: inset 1px 1px 3px #99ef8e;
+}
+
+button {
+  display: block;
+  width: 400px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  box-shadow: inset 1px 1px 3px #99ef8e;
+}
+
+button:hover {
+  background-color: inherit;
+}
+
+button:active {
+  background-color: #99ef8e;
+}/* einde formulier contact! */
+
+
+/* footer opmaken */
+footer {
+  height: 100px;
+  background-color: #99ef8e;
+  text-align: center;
+}
+
+.copy {
+  width: 400px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+} /* einde footer! */
